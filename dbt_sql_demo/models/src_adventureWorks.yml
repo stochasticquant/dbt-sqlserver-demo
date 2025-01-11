@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: adventure_works
+    database: AdventureWorksLT2022
+    schema: SalesLT
+    tables:
+      - name: SalesOrderHeader
+      - name: SalesOrderDetail
