@@ -1,0 +1,40 @@
+version: 2
+
+models:
+  - name: stg_sales_detail
+    description: "This model is a staging table for sales detail data."
+    columns:
+      - name: SalesOrderDetailID
+        description: "The unique identifier for a sales order."
+        tests:
+          - unique
+          - not_null
+      - name: ProductID
+        description: "The unique identifier for the product."
+        tests:
+          - not_null
+      - name: UnitPrice
+        description: "Price of product per unit."
+        tests:
+          - not_null
+  - name: stg_sales_header
+    description: "This model is a staging table for sales header data."
+    columns:
+      - name: SalesOrderID
+        description: "The unique identifier for a sales order."
+        tests:
+          - unique
+          - not_null
+      - name: OrderDate
+        description: "The date the order was placed."
+        tests:
+          - not_null
+  - name: sales
+    description: "This model is a combined view of sales header and detail data."
+    columns:
+      - name: SalesOrderID
+        description: "The unique identifier for a sales order."
+        tests:
+          - not_null
+          - sales_positive_test
+      
