@@ -1,0 +1,99 @@
+[0m16:29:56.784477 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002BF118E1CF0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002BF137A9DB0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002BF137A9BA0>]}
+
+
+============================== 16:29:56.792560 | c0ba016c-6818-4b21-952f-55ba2431f16c ==============================
+[0m16:29:56.792560 [info ] [MainThread]: Running with dbt=1.9.1
+[0m16:29:56.793575 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\Sambo\\.dbt', 'fail_fast': 'False', 'version_check': 'True', 'log_path': 'logs', 'debug': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'static_parser': 'True', 'invocation_command': 'dbt init', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m16:29:56.828326 [warn ] [MainThread]: [ConfigFolderDirectory]: Unable to parse logging event dictionary. Failed to parse dir field: expected string or bytes-like object.. Dictionary: {'dir': WindowsPath('C:/Users/Sambo/.dbt')}
+[0m16:29:56.829338 [info ] [MainThread]: Creating dbt configuration folder at 
+[0m16:30:32.968330 [debug] [MainThread]: Starter project path: C:\Users\Sambo\anaconda3\envs\dbt\lib\site-packages\dbt\include\starter_project
+[0m16:30:33.012159 [info ] [MainThread]: 
+Your new dbt project "dbtintro" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m16:30:33.013524 [info ] [MainThread]: Setting up your profile.
+[0m16:42:12.785371 [info ] [MainThread]: Profile dbtintro written to C:\Users\Sambo\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m16:42:12.787892 [debug] [MainThread]: Command `dbt init` succeeded at 16:42:12.787892 after 736.16 seconds
+[0m16:42:12.789811 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002BF118E1CF0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002BF137A9B70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002BF137E1660>]}
+[0m16:42:12.790320 [debug] [MainThread]: Flushing usage events
+[0m16:42:13.418633 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m19:25:01.949658 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000267C1E58CA0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000267C3E043A0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000267C3E04580>]}
+[0m19:25:01.966561 [debug] [MainThread]: An error was encountered while trying to send an event
+
+
+============================== 19:25:01.967574 | 30a4d116-c2e5-4035-9d64-e303c3c6fc8d ==============================
+[0m19:25:01.967574 [info ] [MainThread]: Running with dbt=1.9.1
+[0m19:25:01.968581 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'profiles_dir': 'C:\\Users\\Sambo\\.dbt', 'log_path': 'logs', 'debug': 'False', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt init', 'introspect': 'True', 'static_parser': 'True', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m19:25:42.232216 [debug] [MainThread]: Starter project path: C:\Users\Sambo\anaconda3\envs\dbt\lib\site-packages\dbt\include\starter_project
+[0m19:25:42.271178 [info ] [MainThread]: 
+Your new dbt project "dbt_sql_demo" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m19:25:42.273275 [info ] [MainThread]: Setting up your profile.
+[0m19:28:06.564827 [info ] [MainThread]: Profile dbt_sql_demo written to C:\Users\Sambo\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m19:28:06.568858 [debug] [MainThread]: Command `dbt init` succeeded at 19:28:06.568352 after 184.80 seconds
+[0m19:28:06.569876 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000267C1E58CA0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000267C3E043A0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000267C3E04670>]}
+[0m19:28:06.570986 [debug] [MainThread]: An error was encountered while trying to send an event
+[0m19:28:06.573026 [debug] [MainThread]: Flushing usage events
+[0m19:28:27.324827 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CC19518C10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CC1B4C43A0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CC1B4C4580>]}
+[0m19:28:27.331908 [debug] [MainThread]: An error was encountered while trying to send an event
+
+
+============================== 19:28:27.332937 | 93817ae9-c7ec-4e70-8c36-49ba0d1325e2 ==============================
+[0m19:28:27.332937 [info ] [MainThread]: Running with dbt=1.9.1
+[0m19:28:27.334953 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\Sambo\\.dbt', 'fail_fast': 'False', 'version_check': 'True', 'log_path': 'logs', 'debug': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'log_format': 'default', 'static_parser': 'True', 'target_path': 'None', 'invocation_command': 'dbt debug', 'send_anonymous_usage_stats': 'True'}
+[0m19:28:27.372938 [info ] [MainThread]: dbt version: 1.9.1
+[0m19:28:27.373945 [info ] [MainThread]: python version: 3.10.16
+[0m19:28:27.375960 [info ] [MainThread]: python path: C:\Users\Sambo\anaconda3\envs\dbt\python.exe
+[0m19:28:27.375960 [info ] [MainThread]: os info: Windows-10-10.0.26100-SP0
+[0m19:28:29.675311 [info ] [MainThread]: Using profiles dir at C:\Users\Sambo\.dbt
+[0m19:28:29.677830 [info ] [MainThread]: Using profiles.yml file at C:\Users\Sambo\.dbt\profiles.yml
+[0m19:28:29.679351 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\Sambo\OneDrive\Documents\dbt\dbt_project.yml
+[0m19:28:29.680868 [info ] [MainThread]: Configuration:
+[0m19:28:29.682382 [info ] [MainThread]:   profiles.yml file [[31mERROR invalid[0m]
+[0m19:28:29.683430 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m19:28:29.685444 [info ] [MainThread]: Required dependencies:
+[0m19:28:29.686467 [debug] [MainThread]: Executing "git --help"
+[0m19:28:29.749322 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--no-lazy-fetch]\n           [--no-optional-locks] [--no-advice] [--bare] [--git-dir=<path>]\n           [--work-tree=<path>] [--namespace=<name>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone      Clone a repository into a new directory\n   init       Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add        Add file contents to the index\n   mv         Move or rename a file, a directory, or a symlink\n   restore    Restore working tree files\n   rm         Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect     Use binary search to find the commit that introduced a bug\n   diff       Show changes between commits, commit and working tree, etc\n   grep       Print lines matching a pattern\n   log        Show commit logs\n   show       Show various types of objects\n   status     Show the working tree status\n\ngrow, mark and tweak your common history\n   backfill   Download missing objects in a partial clone\n   branch     List, create, or delete branches\n   commit     Record changes to the repository\n   merge      Join two or more development histories together\n   rebase     Reapply commits on top of another base tip\n   reset      Reset current HEAD to the specified state\n   switch     Switch branches\n   tag        Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch      Download objects and refs from another repository\n   pull       Fetch from and integrate with another repository or a local branch\n   push       Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m19:28:29.750375 [debug] [MainThread]: STDERR: "b''"
+[0m19:28:29.751384 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m19:28:29.753391 [info ] [MainThread]: Connection test skipped since no profile was found
+[0m19:28:29.754391 [info ] [MainThread]: [31m2 checks failed:[0m
+[0m19:28:29.755390 [info ] [MainThread]: Could not load dbt_project.yml
+Profile loading failed for the following reason:
+Runtime Error
+  Credentials in profile "dbt_sql_demo", target "dev" invalid: 'schema' is a required property
+
+
+[0m19:28:29.756623 [info ] [MainThread]: Project loading failed for the following reason:
+ project path <C:\Users\Sambo\OneDrive\Documents\dbt\dbt_project.yml> not found
+
+[0m19:28:29.759141 [debug] [MainThread]: Command `dbt debug` failed at 19:28:29.759141 after 2.62 seconds
+[0m19:28:29.760144 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CC19518C10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CC1B4C45E0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CC4C5FA020>]}
+[0m19:28:29.761144 [debug] [MainThread]: An error was encountered while trying to send an event
+[0m19:28:29.762143 [debug] [MainThread]: Flushing usage events
